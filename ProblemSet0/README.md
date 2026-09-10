@@ -1,0 +1,3 @@
+# Phone Book Search
+
+The algorithm is searching for the name **Smith** in a phone book. It uses a *binary search* method to find the name efficiently. First, it opens the phone book to the middle and checks the names. If Smith is found, the algorithm calls Mike. If Smith comes earlier in the alphabet, the algorithm searches the middle of the left half of the phone book. If Smith comes later in the alphabet, it searches the middle of the right half. The algorithm continues this process until Smith is found or there are no more pages to search. If the solution is not found, the algorithm quits. When the algorithm finds the solution, it **calls Mike**.
